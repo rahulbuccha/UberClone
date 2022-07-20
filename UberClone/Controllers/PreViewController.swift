@@ -7,11 +7,11 @@
 
 import UIKit
 
-class SplashScreenViewController: UIViewController {
+class PreViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
        
     }
 
