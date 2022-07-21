@@ -1,19 +1,20 @@
 //
-//  MapTableViewCell.swift
+//  AccountSettingsTableViewCell.swift
 //  UberClone
 //
 //  Created by Admin on 21/07/22.
+//
 
 import UIKit
-import MapKit
 
-class MapTableViewCell: UITableViewCell {
+class AccountSettingsTableViewCell: UITableViewCell {
+
+    @IBOutlet weak var settingImage : UIImageView!
+    @IBOutlet weak var settingLabel: UILabel!
     
-    @IBOutlet weak var mapView: MKMapView!
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        mapView.layer.cornerRadius = 15.0
+        settingImage.layer.cornerRadius = 30.0
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

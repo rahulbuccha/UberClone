@@ -1,19 +1,17 @@
 //
-//  MapTableViewCell.swift
+//  VersionTableViewCell.swift
 //  UberClone
 //
-//  Created by Admin on 21/07/22.
+//  Created by Admin on 22/07/22.
+//
 
 import UIKit
-import MapKit
 
-class MapTableViewCell: UITableViewCell {
-    
-    @IBOutlet weak var mapView: MKMapView!
+class VersionTableViewCell: UITableViewCell {
+
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        mapView.layer.cornerRadius = 15.0
+        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

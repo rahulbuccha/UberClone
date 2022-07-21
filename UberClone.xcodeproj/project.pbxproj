@@ -20,6 +20,9 @@
 		84AD77CA2889870700B327CC /* ChooseTabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD77C92889870700B327CC /* ChooseTabTableViewCell.swift */; };
 		84AD77CC28899C3F00B327CC /* SetDestinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD77CB28899C3F00B327CC /* SetDestinationTableViewCell.swift */; };
 		84AD77CF28899E0D00B327CC /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD77CE28899E0D00B327CC /* MapTableViewCell.swift */; };
+		84AD77D12889CDDB00B327CC /* EditProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD77D02889CDDB00B327CC /* EditProfileTableViewCell.swift */; };
+		84AD77D32889D00100B327CC /* AccountSettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD77D22889D00100B327CC /* AccountSettingsTableViewCell.swift */; };
+		84AD77D52889D79600B327CC /* VersionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD77D42889D79600B327CC /* VersionTableViewCell.swift */; };
 		84D45C5928882A3100104E2F /* verifyOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D45C5828882A3100104E2F /* verifyOTPViewController.swift */; };
 		84D45C5C28882D4B00104E2F /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D45C5B28882D4B00104E2F /* HomeScreenViewController.swift */; };
 		84D45C5E28883FE100104E2F /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D45C5D28883FE100104E2F /* ActivityViewController.swift */; };
@@ -43,6 +46,9 @@
 		84AD77C92889870700B327CC /* ChooseTabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTabTableViewCell.swift; sourceTree = "<group>"; };
 		84AD77CB28899C3F00B327CC /* SetDestinationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDestinationTableViewCell.swift; sourceTree = "<group>"; };
 		84AD77CE28899E0D00B327CC /* MapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		84AD77D02889CDDB00B327CC /* EditProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileTableViewCell.swift; sourceTree = "<group>"; };
+		84AD77D22889D00100B327CC /* AccountSettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsTableViewCell.swift; sourceTree = "<group>"; };
+		84AD77D42889D79600B327CC /* VersionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionTableViewCell.swift; sourceTree = "<group>"; };
 		84D45C5828882A3100104E2F /* verifyOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyOTPViewController.swift; sourceTree = "<group>"; };
 		84D45C5B28882D4B00104E2F /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		84D45C5D28883FE100104E2F /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				84D45C5F28883FEA00104E2F /* AccountViewController.swift */,
+				84AD77D02889CDDB00B327CC /* EditProfileTableViewCell.swift */,
+				84AD77D22889D00100B327CC /* AccountSettingsTableViewCell.swift */,
+				84AD77D42889D79600B327CC /* VersionTableViewCell.swift */,
 			);
 			path = ProfileScreen;
 			sourceTree = "<group>";
@@ -249,6 +258,7 @@
 				84AD77CA2889870700B327CC /* ChooseTabTableViewCell.swift in Sources */,
 				84AD77CC28899C3F00B327CC /* SetDestinationTableViewCell.swift in Sources */,
 				84D4E0C128880BFC000F48E0 /* LoginViewController.swift in Sources */,
+				84AD77D12889CDDB00B327CC /* EditProfileTableViewCell.swift in Sources */,
 				8404B5F42887CC30001458DE /* AppDelegate.swift in Sources */,
 				84D45C6028883FEB00104E2F /* AccountViewController.swift in Sources */,
 				841ABA99288955750092C9EB /* HomeBlockTableViewCell.swift in Sources */,
@@ -257,9 +267,11 @@
 				841ABA9528892EF60092C9EB /* HomebannerTableViewCell.swift in Sources */,
 				84D45C5E28883FE100104E2F /* ActivityViewController.swift in Sources */,
 				841ABA97288930EE0092C9EB /* HomeBannerCollectionViewCell.swift in Sources */,
+				84AD77D32889D00100B327CC /* AccountSettingsTableViewCell.swift in Sources */,
 				84AD77CF28899E0D00B327CC /* MapTableViewCell.swift in Sources */,
 				84AD77C72889828700B327CC /* SearchTableViewCell.swift in Sources */,
 				8404B60D2887CD3E001458DE /* PreViewController.swift in Sources */,
+				84AD77D52889D79600B327CC /* VersionTableViewCell.swift in Sources */,
 				84D45C5C28882D4B00104E2F /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
