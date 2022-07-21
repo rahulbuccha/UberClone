@@ -20,6 +20,7 @@ class HomeScreenViewController: UIViewController {
         homeTableView.dataSource = self
         homeTableView.separatorStyle = .none
         
+        
     }
 
 }
@@ -32,15 +33,18 @@ extension HomeScreenViewController : UITableViewDelegate, UITableViewDataSource{
             return 180
         }
         else if indexPath.row == 1{
-            return 230
+            return 240
         }
-        else{
-            return 100
+        else if indexPath.row == 5{
+            return 300
+        }
+        else {
+            return 80
         }
         
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 6
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -51,8 +55,39 @@ extension HomeScreenViewController : UITableViewDelegate, UITableViewDataSource{
             
             return cell
         }
-        else{
+        else if indexPath.row == 1{
             let cell = homeTableView.dequeueReusableCell(withIdentifier: "HomeBlockTableViewCell") as! HomeBlockTableViewCell
+            homeTableView.separatorStyle = .none
+            cell.selectionStyle = .none
+            return cell
+        }
+        
+        else if indexPath.row == 2{
+            let cell = homeTableView.dequeueReusableCell(withIdentifier: "SearchTableViewCell") as! SearchTableViewCell
+            homeTableView.separatorStyle = .none
+            cell.selectionStyle = .none
+            
+            return cell
+        }
+        else if indexPath.row == 3{
+            let cell = homeTableView.dequeueReusableCell(withIdentifier: "ChooseTabTableViewCell") as! ChooseTabTableViewCell
+            cell.accessoryType = .disclosureIndicator
+            
+            cell.selectionStyle = .none
+            
+            return cell
+        }
+        else if indexPath.row == 4{
+            let cell = homeTableView.dequeueReusableCell(withIdentifier: "SetDestinationTableViewCell") as! SetDestinationTableViewCell
+            cell.accessoryType = .disclosureIndicator
+           
+            cell.selectionStyle = .none
+            
+            return cell
+        }
+        
+        else {
+            let cell = homeTableView.dequeueReusableCell(withIdentifier: "MapTableViewCell") as! MapTableViewCell
             
             return cell
         }
