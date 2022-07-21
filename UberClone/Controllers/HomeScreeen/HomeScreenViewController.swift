@@ -28,18 +28,34 @@ class HomeScreenViewController: UIViewController {
 extension HomeScreenViewController : UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 180
+        if indexPath.row == 0{
+            return 180
+        }
+        else if indexPath.row == 1{
+            return 230
+        }
+        else{
+            return 100
+        }
+        
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return 2
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = homeTableView.dequeueReusableCell(withIdentifier: "HomebannerTableViewCell") as! HomebannerTableViewCell
-        cell.selectionStyle = .none
-        
-        
-        return cell
+        if indexPath.row == 0{
+            let cell = homeTableView.dequeueReusableCell(withIdentifier: "HomebannerTableViewCell") as! HomebannerTableViewCell
+            cell.selectionStyle = .none
+            
+            
+            return cell
+        }
+        else{
+            let cell = homeTableView.dequeueReusableCell(withIdentifier: "HomeBlockTableViewCell") as! HomeBlockTableViewCell
+            
+            return cell
+        }
     }
     
     

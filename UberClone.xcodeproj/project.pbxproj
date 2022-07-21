@@ -136,13 +136,29 @@
 			path = ProfileScreen;
 			sourceTree = "<group>";
 		};
+		841ABA9A28895B9C0092C9EB /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				841ABA9428892EF60092C9EB /* HomebannerTableViewCell.swift */,
+				841ABA96288930EE0092C9EB /* HomeBannerCollectionViewCell.swift */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		841ABA9B28895BB50092C9EB /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				841ABA98288955750092C9EB /* HomeBlockTableViewCell.swift */,
+			);
+			path = Blocks;
+			sourceTree = "<group>";
+		};
 		84D45C5A28882D3300104E2F /* HomeScreeen */ = {
 			isa = PBXGroup;
 			children = (
 				84D45C5B28882D4B00104E2F /* HomeScreenViewController.swift */,
-				841ABA9428892EF60092C9EB /* HomebannerTableViewCell.swift */,
-				841ABA96288930EE0092C9EB /* HomeBannerCollectionViewCell.swift */,
-				841ABA98288955750092C9EB /* HomeBlockTableViewCell.swift */,
+				841ABA9A28895B9C0092C9EB /* Banner */,
+				841ABA9B28895BB50092C9EB /* Blocks */,
 			);
 			path = HomeScreeen;
 			sourceTree = "<group>";
