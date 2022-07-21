@@ -15,4 +15,8 @@ class PreViewController: UIViewController {
        
     }
 
+    @IBAction func getStartedTapped(_ sender: Any) {
+        
+        
+    }
 }

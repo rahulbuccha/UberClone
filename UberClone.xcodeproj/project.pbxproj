@@ -13,6 +13,11 @@
 		8404B5FD2887CC33001458DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8404B5FC2887CC33001458DE /* Assets.xcassets */; };
 		8404B6002887CC33001458DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8404B5FE2887CC33001458DE /* LaunchScreen.storyboard */; };
 		8404B60D2887CD3E001458DE /* PreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404B60C2887CD3E001458DE /* PreViewController.swift */; };
+		84D45C5928882A3100104E2F /* verifyOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D45C5828882A3100104E2F /* verifyOTPViewController.swift */; };
+		84D45C5C28882D4B00104E2F /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D45C5B28882D4B00104E2F /* HomeScreenViewController.swift */; };
+		84D45C5E28883FE100104E2F /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D45C5D28883FE100104E2F /* ActivityViewController.swift */; };
+		84D45C6028883FEB00104E2F /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D45C5F28883FEA00104E2F /* AccountViewController.swift */; };
+		84D4E0C128880BFC000F48E0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4E0C028880BFC000F48E0 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		8404B5FF2887CC33001458DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8404B6012887CC33001458DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8404B60C2887CD3E001458DE /* PreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreViewController.swift; sourceTree = "<group>"; };
+		84D45C5828882A3100104E2F /* verifyOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyOTPViewController.swift; sourceTree = "<group>"; };
+		84D45C5B28882D4B00104E2F /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		84D45C5D28883FE100104E2F /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		84D45C5F28883FEA00104E2F /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		84D4E0C028880BFC000F48E0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,11 @@
 			isa = PBXGroup;
 			children = (
 				8404B60C2887CD3E001458DE /* PreViewController.swift */,
+				84D4E0C028880BFC000F48E0 /* LoginViewController.swift */,
+				84D45C5828882A3100104E2F /* verifyOTPViewController.swift */,
+				84D45C5A28882D3300104E2F /* HomeScreeen */,
+				841ABA9228890DFA0092C9EB /* ActivityScreen */,
+				841ABA9328890E210092C9EB /* ProfileScreen */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -97,6 +112,30 @@
 				8404B5F92887CC30001458DE /* Main.storyboard */,
 			);
 			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		841ABA9228890DFA0092C9EB /* ActivityScreen */ = {
+			isa = PBXGroup;
+			children = (
+				84D45C5D28883FE100104E2F /* ActivityViewController.swift */,
+			);
+			path = ActivityScreen;
+			sourceTree = "<group>";
+		};
+		841ABA9328890E210092C9EB /* ProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				84D45C5F28883FEA00104E2F /* AccountViewController.swift */,
+			);
+			path = ProfileScreen;
+			sourceTree = "<group>";
+		};
+		84D45C5A28882D3300104E2F /* HomeScreeen */ = {
+			isa = PBXGroup;
+			children = (
+				84D45C5B28882D4B00104E2F /* HomeScreenViewController.swift */,
+			);
+			path = HomeScreeen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +209,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D4E0C128880BFC000F48E0 /* LoginViewController.swift in Sources */,
 				8404B5F42887CC30001458DE /* AppDelegate.swift in Sources */,
+				84D45C6028883FEB00104E2F /* AccountViewController.swift in Sources */,
+				84D45C5928882A3100104E2F /* verifyOTPViewController.swift in Sources */,
 				8404B5F62887CC30001458DE /* SceneDelegate.swift in Sources */,
+				84D45C5E28883FE100104E2F /* ActivityViewController.swift in Sources */,
 				8404B60D2887CD3E001458DE /* PreViewController.swift in Sources */,
+				84D45C5C28882D4B00104E2F /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
