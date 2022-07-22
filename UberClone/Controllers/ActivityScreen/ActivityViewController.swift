@@ -20,8 +20,6 @@ class ActivityViewController: UIViewController {
         activityTableView.separatorStyle = .none
         
     }
-    
-
 
 }
 

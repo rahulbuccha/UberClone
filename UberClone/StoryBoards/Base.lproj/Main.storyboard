@@ -54,7 +54,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="getStartedTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XSn-ta-LZe"/>
-                                    <segue destination="it1-dX-0YI" kind="show" id="RiG-g6-YeC"/>
+                                    <segue destination="04t-12-Sgw" kind="show" id="5Ze-3m-2cS"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Move with safety" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IpP-gM-sEl">
@@ -227,7 +227,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ktb-K3-P27" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1489.8550724637682" y="60.9375"/>
+            <point key="canvasLocation" x="1488" y="-64"/>
         </scene>
         <!--VerifyOTP View Controller-->
         <scene sceneID="DW3-6e-r0s">
@@ -274,9 +274,6 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.forward" catalog="system" imagePlacement="trailing" title="Next" imagePadding="5"/>
-                                <connections>
-                                    <segue destination="04t-12-Sgw" kind="show" id="khA-qK-toi"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rcF-Ea-XeM"/>
@@ -299,7 +296,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CnW-tV-wfL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2242" y="60"/>
+            <point key="canvasLocation" x="2165" y="-64"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="vCk-r2-dHl">
@@ -321,7 +318,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d0I-vV-k7S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2278" y="777"/>
+            <point key="canvasLocation" x="2278" y="792"/>
         </scene>
         <!--Activity-->
         <scene sceneID="evR-Rs-72x">
@@ -330,7 +327,7 @@
                     <tabBarItem key="tabBarItem" title="Activity" image="note.text" catalog="system" id="uZL-jY-xUM"/>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="pm0-uK-irp"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xKj-nO-P0A">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -364,11 +361,11 @@
             <objects>
                 <viewController id="ROI-3l-nyt" customClass="AccountViewController" customModule="UberClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JOA-yv-bhf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="LCH-kc-bGr">
-                                <rect key="frame" x="0.0" y="56" width="414" height="757"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EditProfileTableViewCell" rowHeight="220" id="LVU-EW-UXN" customClass="EditProfileTableViewCell" customModule="UberClone" customModuleProvider="target">
@@ -563,7 +560,7 @@
                     <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="22q-lL-i7V"/>
                     <navigationItem key="navigationItem" id="PKb-zh-qJk"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ydx-9v-d5C">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -581,7 +578,7 @@
                     <tabBarItem key="tabBarItem" title="Account" image="person.fill" catalog="system" id="Jzw-JM-ZWK"/>
                     <navigationItem key="navigationItem" id="qr9-ol-SU9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="7yp-j3-cg4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -597,11 +594,11 @@
             <objects>
                 <viewController id="zb8-RM-6XJ" customClass="ActivityViewController" customModule="UberClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PKJ-gD-XBP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="946"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="zni-07-ftM">
-                                <rect key="frame" x="0.0" y="56" width="414" height="861"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="829"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="UpcomingTableViewCell" rowHeight="237" id="d4z-qF-VWt" customClass="UpcomingTableViewCell" customModule="UberClone" customModuleProvider="target">
@@ -713,7 +710,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RlZ-sT-Ad9">
-                                                            <rect key="frame" x="205" y="113.5" width="169" height="30"/>
+                                                            <rect key="frame" x="205" y="115" width="169" height="30"/>
                                                             <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="aee-H5-8ff"/>
@@ -735,12 +732,12 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUk-7f-0w8">
-                                                            <rect key="frame" x="205" y="89.5" width="144.5" height="19"/>
+                                                            <rect key="frame" x="205" y="89.5" width="152.5" height="20.5"/>
                                                             <attributedString key="attributedText">
                                                                 <fragment content="Use Code : 20UKOL">
                                                                     <attributes>
                                                                         <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                                        <font key="NSFont" size="17" name=".SFNS-Regular"/>
+                                                                        <font key="NSFont" metaFont="system" size="17"/>
                                                                     </attributes>
                                                                 </fragment>
                                                             </attributedString>
@@ -873,7 +870,7 @@
             <objects>
                 <viewController id="aVA-e3-ATX" customClass="HomeScreenViewController" customModule="UberClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lyP-NQ-uIN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="946"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Hqa-O4-MA9">
@@ -1363,7 +1360,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Mx5-Cp-iS5"/>
+        <segue reference="oBZ-sh-OBK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="3" width="380" height="150"/>
