@@ -368,11 +368,11 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TyV-xy-FTl">
-                                                    <rect key="frame" x="324" y="21" width="60" height="60"/>
+                                                    <rect key="frame" x="304" y="11" width="80" height="80"/>
                                                     <color key="backgroundColor" red="0.87868016240000002" green="0.87868016240000002" blue="0.87868016240000002" alpha="0.5382804618" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="60" id="pbV-nv-8AT"/>
-                                                        <constraint firstAttribute="width" constant="60" id="qII-Kl-iRK"/>
+                                                        <constraint firstAttribute="height" constant="80" id="pbV-nv-8AT"/>
+                                                        <constraint firstAttribute="width" constant="80" id="qII-Kl-iRK"/>
                                                     </constraints>
                                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" title="Button"/>
@@ -383,10 +383,10 @@
                                                     </buttonConfiguration>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZw-jv-5SJ">
-                                                    <rect key="frame" x="10" y="54" width="70.5" height="20"/>
+                                                    <rect key="frame" x="10" y="55.5" width="70.5" height="30"/>
                                                     <color key="backgroundColor" red="0.87868016240000002" green="0.87868016240000002" blue="0.87868016240000002" alpha="0.5382804618" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="20" id="Ywz-pK-zzf"/>
+                                                        <constraint firstAttribute="height" constant="30" id="Ywz-pK-zzf"/>
                                                     </constraints>
                                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" title="Button"/>
@@ -398,7 +398,7 @@
                                                     </buttonConfiguration>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypP-dM-fnN">
-                                                    <rect key="frame" x="30" y="94" width="100" height="100"/>
+                                                    <rect key="frame" x="30" y="105.5" width="100" height="100"/>
                                                     <color key="backgroundColor" red="0.87868016240000002" green="0.87868016240000002" blue="0.87868016240000002" alpha="0.5382804618" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="pLn-yZ-DWJ"/>
@@ -414,7 +414,7 @@
                                                     </buttonConfiguration>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cpo-lr-JDT">
-                                                    <rect key="frame" x="284" y="93" width="100" height="100"/>
+                                                    <rect key="frame" x="284" y="103" width="100" height="100"/>
                                                     <color key="backgroundColor" red="0.87868016240000002" green="0.87868016240000002" blue="0.87868016240000002" alpha="0.5382804618" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="100" id="XCl-Vh-8PV"/>
@@ -427,13 +427,13 @@
                                                     </buttonConfiguration>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rahul Shaw" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohC-Rc-tj5">
-                                                    <rect key="frame" x="10" y="20" width="105" height="24"/>
-                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                    <rect key="frame" x="10" y="20" width="109.5" height="25.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEN-Mj-QyL">
-                                                    <rect key="frame" x="157" y="94" width="100" height="100"/>
+                                                    <rect key="frame" x="157" y="104" width="100" height="100"/>
                                                     <color key="backgroundColor" red="0.87868016240000002" green="0.87868016240000002" blue="0.87868016240000002" alpha="0.5382804618" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="g4R-os-9Us"/>
@@ -449,9 +449,9 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="ohC-Rc-tj5" firstAttribute="leading" secondItem="AMC-C5-hV1" secondAttribute="leading" constant="10" id="9g4-Ct-CYz"/>
-                                                <constraint firstItem="TyV-xy-FTl" firstAttribute="top" secondItem="AMC-C5-hV1" secondAttribute="topMargin" constant="10" id="DX1-gX-VnW"/>
+                                                <constraint firstItem="TyV-xy-FTl" firstAttribute="top" secondItem="AMC-C5-hV1" secondAttribute="topMargin" id="DX1-gX-VnW"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="Cpo-lr-JDT" secondAttribute="trailing" constant="10" id="Dcw-fb-2K3"/>
-                                                <constraint firstItem="zEN-Mj-QyL" firstAttribute="top" secondItem="AMC-C5-hV1" secondAttribute="topMargin" constant="83" id="Rv2-IH-oAE"/>
+                                                <constraint firstItem="zEN-Mj-QyL" firstAttribute="top" secondItem="AMC-C5-hV1" secondAttribute="topMargin" constant="93" id="Rv2-IH-oAE"/>
                                                 <constraint firstItem="zEN-Mj-QyL" firstAttribute="leading" secondItem="ypP-dM-fnN" secondAttribute="trailing" constant="27" id="UIE-bC-j2l"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="TyV-xy-FTl" secondAttribute="trailing" constant="10" id="Z0c-yg-xHO"/>
                                                 <constraint firstItem="Cpo-lr-JDT" firstAttribute="leading" secondItem="zEN-Mj-QyL" secondAttribute="trailing" constant="27" id="bLf-1I-VYd"/>
@@ -463,6 +463,13 @@
                                                 <constraint firstItem="ohC-Rc-tj5" firstAttribute="top" secondItem="AMC-C5-hV1" secondAttribute="top" constant="20" symbolic="YES" id="pyd-5R-9kG"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="clockButton" destination="Cpo-lr-JDT" id="fi8-BQ-IIh"/>
+                                            <outlet property="helpButton" destination="ypP-dM-fnN" id="cd4-m8-laR"/>
+                                            <outlet property="profileButton" destination="TyV-xy-FTl" id="cKq-2R-djr"/>
+                                            <outlet property="ratingButton" destination="KZw-jv-5SJ" id="cl0-MV-IhK"/>
+                                            <outlet property="walletButton" destination="zEN-Mj-QyL" id="t8m-Ze-EOC"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AccountSettingsTableViewCell" rowHeight="80" id="oWI-Db-KNs" customClass="AccountSettingsTableViewCell" customModule="UberClone" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="264.5" width="414" height="80"/>
@@ -479,8 +486,8 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Messages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zII-XY-Hp2">
-                                                    <rect key="frame" x="100" y="29.5" width="77.5" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="100" y="29.5" width="81.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -1094,14 +1101,14 @@
         <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <image name="arrow.forward" catalog="system" width="128" height="98"/>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
-        <image name="clock" width="50" height="50"/>
+        <image name="clock" width="25" height="25"/>
         <image name="clock.fill" catalog="system" width="128" height="121"/>
         <image name="flag" catalog="system" width="128" height="121"/>
         <image name="google (1)" width="32" height="32"/>
-        <image name="help" width="50" height="50"/>
+        <image name="help" width="25" height="25"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="mappin" catalog="system" width="105" height="128"/>
-        <image name="msg" width="16" height="16"/>
+        <image name="msg" width="25" height="25"/>
         <image name="note.text" catalog="system" width="128" height="106"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="pic__1_-removebg-preview" width="460" height="543"/>
@@ -1109,7 +1116,7 @@
         <image name="uber-intercity" width="400" height="300"/>
         <image name="uber-package" width="664" height="376"/>
         <image name="uber-rentals" width="500" height="318"/>
-        <image name="wallet" width="50" height="50"/>
+        <image name="wallet" width="25" height="25"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

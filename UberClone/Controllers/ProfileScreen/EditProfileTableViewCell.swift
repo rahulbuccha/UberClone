@@ -9,9 +9,21 @@ import UIKit
 
 class EditProfileTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var ratingButton: UIButton!
+    @IBOutlet weak var profileButton: UIButton!
+    @IBOutlet weak var helpButton: UIButton!
+    @IBOutlet weak var walletButton: UIButton!
+    @IBOutlet weak var clockButton: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        ratingButton.layer.cornerRadius = 15.0
+        profileButton.layer.cornerRadius = 40.0
+        
+        helpButton.layer.cornerRadius = 15.0
+        walletButton.layer.cornerRadius = 15.0
+        clockButton.layer.cornerRadius = 15.0
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
