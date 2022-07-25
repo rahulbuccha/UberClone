@@ -7,7 +7,14 @@
 
 import UIKit
 
+//protocol CollectioCellTab{
+//    func bannerTab(index: Int)
+//
+//}
+
 class HomeBannerCollectionViewCell: UICollectionViewCell {
+    
+//    var delegate = CollectioCellTab
     
     @IBOutlet weak var bannerImageView: UIImageView!
     

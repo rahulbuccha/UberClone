@@ -15,7 +15,7 @@ class HomeScreenViewController: UIViewController {
         
         self.navigationController?.setNavigationBarHidden(true, animated: true)
         
-        //delegates assigned
+        //delegates TableView
         homeTableView.delegate = self
         homeTableView.dataSource = self
         homeTableView.separatorStyle = .none
@@ -43,14 +43,17 @@ extension HomeScreenViewController : UITableViewDelegate, UITableViewDataSource{
         }
         
     }
+    //MARK: Number of rows in section
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 6
     }
-    
+  
+    //MARK: CellForRowAt
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.row == 0{
             let cell = homeTableView.dequeueReusableCell(withIdentifier: "HomebannerTableViewCell") as! HomebannerTableViewCell
-            cell.selectionStyle = .none
+            
+            cell.delegate = self
             
             
             return cell
@@ -58,7 +61,10 @@ extension HomeScreenViewController : UITableViewDelegate, UITableViewDataSource{
         else if indexPath.row == 1{
             let cell = homeTableView.dequeueReusableCell(withIdentifier: "HomeBlockTableViewCell") as! HomeBlockTableViewCell
             homeTableView.separatorStyle = .none
-            cell.selectionStyle = .none
+            
+            cell.buttonDelegate = self
+            
+            
             return cell
         }
         
@@ -93,5 +99,29 @@ extension HomeScreenViewController : UITableViewDelegate, UITableViewDataSource{
         }
     }
     
+    //didSelectRowAt
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 0{
+            
+        }
+    }
+    
+    
+}
+
+//MARK: extension for CollectionTab protocol
+extension HomeScreenViewController : CollectionCellTab{
+    func bannerTab(index: Int) {
+        print(index)
+    }
+    
+    
+}
+
+
+extension HomeScreenViewController : ButtonTapped{
+    func buttonClicked(index: Int) {
+        print(index)
+    }
     
 }

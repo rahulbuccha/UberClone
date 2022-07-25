@@ -7,9 +7,19 @@
 
 import UIKit
 
+//creating protocol for collection view
+protocol CollectionCellTab{
+    func bannerTab(index: Int)
+
+}
+
 class HomebannerTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource {
 
-   
+    //collection delegate
+    var delegate : CollectionCellTab?
+    
+    @IBOutlet weak var BannercontentView: UIView!
+    
     @IBOutlet weak var bannerCollectionView: UICollectionView!
     @IBOutlet weak var pagerControl: UIPageControl!
     
@@ -34,6 +44,7 @@ class HomebannerTableViewCell: UITableViewCell, UICollectionViewDelegate, UIColl
         
     }
     
+    
     //MARK: Collectionview methods
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return banners.count
@@ -56,5 +67,15 @@ class HomebannerTableViewCell: UITableViewCell, UICollectionViewDelegate, UIColl
     
     func collectionView(_ UICollectionView : UICollectionView, layout: UICollectionViewLayout, sizeForItemAt: IndexPath) -> CGSize{
         return CGSize(width: 380, height: 160)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print(indexPath.row)
+        delegate?.bannerTab(index: indexPath.row)
+        if indexPath.row == 0{
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let newViewController = storyBoard.instantiateViewController(withIdentifier: "BannerTermsViewController") as! BannerTermsViewController
+            
+        }
     }
 }

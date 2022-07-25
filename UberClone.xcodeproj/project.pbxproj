@@ -31,6 +31,16 @@
 		84D45C5E28883FE100104E2F /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D45C5D28883FE100104E2F /* ActivityViewController.swift */; };
 		84D45C6028883FEB00104E2F /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D45C5F28883FEA00104E2F /* AccountViewController.swift */; };
 		84D4E0C128880BFC000F48E0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4E0C028880BFC000F48E0 /* LoginViewController.swift */; };
+		84E59E20288E6777006C630D /* BannerTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E59E1F288E6777006C630D /* BannerTermsViewController.swift */; };
+		84E59E23288EBDBF006C630D /* RideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E59E22288EBDBE006C630D /* RideViewController.swift */; };
+		84E59E25288EBDD5006C630D /* PackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E59E24288EBDD5006C630D /* PackageViewController.swift */; };
+		84E59E27288EBDDF006C630D /* RentalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E59E26288EBDDF006C630D /* RentalsViewController.swift */; };
+		84E59E29288EBDF3006C630D /* ReserveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E59E28288EBDF3006C630D /* ReserveViewController.swift */; };
+		84E59E2B288EBDFE006C630D /* IntercityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E59E2A288EBDFE006C630D /* IntercityViewController.swift */; };
+		84E59E2D288EF29E006C630D /* RentalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E59E2C288EF29E006C630D /* RentalTableViewCell.swift */; };
+		84E59E2F288EF2A8006C630D /* ReserveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E59E2E288EF2A8006C630D /* ReserveTableViewCell.swift */; };
+		84E59E31288EF2B1006C630D /* IntercityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E59E30288EF2B1006C630D /* IntercityTableViewCell.swift */; };
+		84E59E33288EFED4006C630D /* BannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E59E32288EFED4006C630D /* BannerTableViewCell.swift */; };
 		C3364AFE2387B0857A818469 /* Pods_UberClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BC5E377467259DFC81E12B /* Pods_UberClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +74,16 @@
 		84D45C5D28883FE100104E2F /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		84D45C5F28883FEA00104E2F /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		84D4E0C028880BFC000F48E0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84E59E1F288E6777006C630D /* BannerTermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTermsViewController.swift; sourceTree = "<group>"; };
+		84E59E22288EBDBE006C630D /* RideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideViewController.swift; sourceTree = "<group>"; };
+		84E59E24288EBDD5006C630D /* PackageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageViewController.swift; sourceTree = "<group>"; };
+		84E59E26288EBDDF006C630D /* RentalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalsViewController.swift; sourceTree = "<group>"; };
+		84E59E28288EBDF3006C630D /* ReserveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveViewController.swift; sourceTree = "<group>"; };
+		84E59E2A288EBDFE006C630D /* IntercityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercityViewController.swift; sourceTree = "<group>"; };
+		84E59E2C288EF29E006C630D /* RentalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalTableViewCell.swift; sourceTree = "<group>"; };
+		84E59E2E288EF2A8006C630D /* ReserveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveTableViewCell.swift; sourceTree = "<group>"; };
+		84E59E30288EF2B1006C630D /* IntercityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercityTableViewCell.swift; sourceTree = "<group>"; };
+		84E59E32288EFED4006C630D /* BannerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +104,6 @@
 				6E4FD556F18F3E5EEBC8E9AE /* Pods-UberClone.debug.xcconfig */,
 				621C1538E959711A94070089 /* Pods-UberClone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -192,6 +211,8 @@
 			children = (
 				841ABA9428892EF60092C9EB /* HomebannerTableViewCell.swift */,
 				841ABA96288930EE0092C9EB /* HomeBannerCollectionViewCell.swift */,
+				84E59E1F288E6777006C630D /* BannerTermsViewController.swift */,
+				84E59E32288EFED4006C630D /* BannerTableViewCell.swift */,
 			);
 			path = Banner;
 			sourceTree = "<group>";
@@ -199,7 +220,6 @@
 		841ABA9B28895BB50092C9EB /* Other Cells */ = {
 			isa = PBXGroup;
 			children = (
-				841ABA98288955750092C9EB /* HomeBlockTableViewCell.swift */,
 				84AD77C62889828700B327CC /* SearchTableViewCell.swift */,
 				84AD77C92889870700B327CC /* ChooseTabTableViewCell.swift */,
 				84AD77CB28899C3F00B327CC /* SetDestinationTableViewCell.swift */,
@@ -213,9 +233,26 @@
 			children = (
 				84D45C5B28882D4B00104E2F /* HomeScreenViewController.swift */,
 				841ABA9A28895B9C0092C9EB /* Banner */,
+				84E59E21288EBD57006C630D /* Blocks */,
 				841ABA9B28895BB50092C9EB /* Other Cells */,
 			);
 			path = HomeScreeen;
+			sourceTree = "<group>";
+		};
+		84E59E21288EBD57006C630D /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				841ABA98288955750092C9EB /* HomeBlockTableViewCell.swift */,
+				84E59E22288EBDBE006C630D /* RideViewController.swift */,
+				84E59E24288EBDD5006C630D /* PackageViewController.swift */,
+				84E59E26288EBDDF006C630D /* RentalsViewController.swift */,
+				84E59E2C288EF29E006C630D /* RentalTableViewCell.swift */,
+				84E59E28288EBDF3006C630D /* ReserveViewController.swift */,
+				84E59E2E288EF2A8006C630D /* ReserveTableViewCell.swift */,
+				84E59E2A288EBDFE006C630D /* IntercityViewController.swift */,
+				84E59E30288EF2B1006C630D /* IntercityTableViewCell.swift */,
+			);
+			path = Blocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,14 +370,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E59E27288EBDDF006C630D /* RentalsViewController.swift in Sources */,
 				84AD77CA2889870700B327CC /* ChooseTabTableViewCell.swift in Sources */,
 				84AD77CC28899C3F00B327CC /* SetDestinationTableViewCell.swift in Sources */,
+				84E59E29288EBDF3006C630D /* ReserveViewController.swift in Sources */,
 				84AD77D9288A5AE100B327CC /* PastOrdersTableViewCell.swift in Sources */,
+				84E59E2B288EBDFE006C630D /* IntercityViewController.swift in Sources */,
 				84D4E0C128880BFC000F48E0 /* LoginViewController.swift in Sources */,
+				84E59E20288E6777006C630D /* BannerTermsViewController.swift in Sources */,
 				84AD77D12889CDDB00B327CC /* EditProfileTableViewCell.swift in Sources */,
 				8404B5F42887CC30001458DE /* AppDelegate.swift in Sources */,
 				84D45C6028883FEB00104E2F /* AccountViewController.swift in Sources */,
 				841ABA99288955750092C9EB /* HomeBlockTableViewCell.swift in Sources */,
+				84E59E25288EBDD5006C630D /* PackageViewController.swift in Sources */,
+				84E59E31288EF2B1006C630D /* IntercityTableViewCell.swift in Sources */,
+				84E59E2D288EF29E006C630D /* RentalTableViewCell.swift in Sources */,
+				84E59E33288EFED4006C630D /* BannerTableViewCell.swift in Sources */,
 				84AD77D7288A575D00B327CC /* UpcomingTableViewCell.swift in Sources */,
 				84D45C5928882A3100104E2F /* verifyOTPViewController.swift in Sources */,
 				8404B5F62887CC30001458DE /* SceneDelegate.swift in Sources */,
@@ -350,7 +395,9 @@
 				84AD77D32889D00100B327CC /* AccountSettingsTableViewCell.swift in Sources */,
 				84AD77CF28899E0D00B327CC /* MapTableViewCell.swift in Sources */,
 				84AD77DB288A5D9E00B327CC /* OderListTableViewCell.swift in Sources */,
+				84E59E2F288EF2A8006C630D /* ReserveTableViewCell.swift in Sources */,
 				84AD77C72889828700B327CC /* SearchTableViewCell.swift in Sources */,
+				84E59E23288EBDBF006C630D /* RideViewController.swift in Sources */,
 				8404B60D2887CD3E001458DE /* PreViewController.swift in Sources */,
 				84AD77D52889D79600B327CC /* VersionTableViewCell.swift in Sources */,
 				84D45C5C28882D4B00104E2F /* HomeScreenViewController.swift in Sources */,
