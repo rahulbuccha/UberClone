@@ -59,9 +59,18 @@ class HomeBlockTableViewCell: UITableViewCell {
         
     }
 
-    @IBAction func rideButtonTapped(_ sender: UIButton) {
-        buttonDelegate?.buttonClicked(index: sender.tag)
+    @IBAction func rideButtonTapped(_ sender: UIStoryboardSegue) {
+       // buttonDelegate?.buttonClicked(index: sender.tag)
         
+    }
+    
+     func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showPackage" {
+            let dest = segue.destination as! PackageViewController
+            dest.hero.isEnabled = true
+            dest.hero.modalAnimationType = .selectBy(presenting: .zoomSlide(direction: .left), dismissing: .zoomSlide(direction: .left))
+
+        }
     }
     
     @IBAction func packageButtonTapped(_ sender: UIButton) {

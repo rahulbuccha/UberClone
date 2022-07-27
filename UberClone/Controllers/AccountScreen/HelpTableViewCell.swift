@@ -1,14 +1,15 @@
 //
-//  VersionTableViewCell.swift
+//  HelpTableViewCell.swift
 //  UberClone
 //
-//  Created by Admin on 22/07/22.
+//  Created by Admin on 26/07/22.
 //
 
 import UIKit
 
-class VersionTableViewCell: UITableViewCell {
+class HelpTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var label: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -17,7 +18,7 @@ class VersionTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
+       
     }
 
 }

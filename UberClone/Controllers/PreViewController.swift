@@ -7,9 +7,10 @@
 
 import UIKit
 import RevealingSplashView
+import Hero
 
 class PreViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -31,8 +32,18 @@ class PreViewController: UIViewController {
        
     }
 
-    @IBAction func getStartedTapped(_ sender: Any) {
-        
+    @IBAction func getStartedTapped(_ sender: UIStoryboardSegue) {
         
     }
+    
+    //MARK: MARK: Creating Hero animation on click back button
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showLottie" {
+            let dest = segue.destination as! LottieAnimationViewController
+            dest.hero.isEnabled = true
+            dest.hero.modalAnimationType = .selectBy(presenting: .zoomSlide(direction: .up), dismissing: .zoomSlide(direction: .up))
+            
+        }
+    }
+    
 }

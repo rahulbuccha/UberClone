@@ -46,12 +46,14 @@ extension ActivityViewController : UITableViewDelegate, UITableViewDataSource{
         if indexPath.row == 0{
             let cell = activityTableView.dequeueReusableCell(withIdentifier: "UpcomingTableViewCell") as! UpcomingTableViewCell
             
+            cell.selectionStyle = .none
             return cell
         }
         
         else if indexPath.row == 1{
             let cell = activityTableView.dequeueReusableCell(withIdentifier: "PastOrdersTableViewCell") as! PastOrdersTableViewCell
             
+            cell.selectionStyle = .none
             return cell
         }
         
@@ -59,6 +61,7 @@ extension ActivityViewController : UITableViewDelegate, UITableViewDataSource{
             let cell = activityTableView.dequeueReusableCell(withIdentifier: "OderListTableViewCell") as! OderListTableViewCell
             cell.accessoryType = .disclosureIndicator
 
+            cell.selectionStyle = .none
             return cell
         }
     }
