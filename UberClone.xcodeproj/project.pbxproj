@@ -29,6 +29,10 @@
 		84AD77D7288A575D00B327CC /* UpcomingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD77D6288A575D00B327CC /* UpcomingTableViewCell.swift */; };
 		84AD77D9288A5AE100B327CC /* PastOrdersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD77D8288A5AE100B327CC /* PastOrdersTableViewCell.swift */; };
 		84AD77DB288A5D9E00B327CC /* OderListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD77DA288A5D9E00B327CC /* OderListTableViewCell.swift */; };
+		84AFB7A62890EAC00003C75F /* ParentSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFB7A52890EAC00003C75F /* ParentSearchViewController.swift */; };
+		84AFB7A82890EADE0003C75F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFB7A72890EADE0003C75F /* LocationManager.swift */; };
+		84AFB7AA28911B850003C75F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFB7A928911B850003C75F /* MapViewController.swift */; };
+		84AFB7AC289120ED0003C75F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFB7AB289120ED0003C75F /* SearchViewController.swift */; };
 		84D45C5928882A3100104E2F /* verifyOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D45C5828882A3100104E2F /* verifyOTPViewController.swift */; };
 		84D45C5C28882D4B00104E2F /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D45C5B28882D4B00104E2F /* HomeScreenViewController.swift */; };
 		84D45C5E28883FE100104E2F /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D45C5D28883FE100104E2F /* ActivityViewController.swift */; };
@@ -75,6 +79,10 @@
 		84AD77D6288A575D00B327CC /* UpcomingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingTableViewCell.swift; sourceTree = "<group>"; };
 		84AD77D8288A5AE100B327CC /* PastOrdersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrdersTableViewCell.swift; sourceTree = "<group>"; };
 		84AD77DA288A5D9E00B327CC /* OderListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OderListTableViewCell.swift; sourceTree = "<group>"; };
+		84AFB7A52890EAC00003C75F /* ParentSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentSearchViewController.swift; sourceTree = "<group>"; };
+		84AFB7A72890EADE0003C75F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		84AFB7A928911B850003C75F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		84AFB7AB289120ED0003C75F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		84D45C5828882A3100104E2F /* verifyOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyOTPViewController.swift; sourceTree = "<group>"; };
 		84D45C5B28882D4B00104E2F /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		84D45C5D28883FE100104E2F /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
@@ -229,12 +237,23 @@
 		841ABA9B28895BB50092C9EB /* Other Cells */ = {
 			isa = PBXGroup;
 			children = (
-				84AD77C62889828700B327CC /* SearchTableViewCell.swift */,
 				84AD77C92889870700B327CC /* ChooseTabTableViewCell.swift */,
 				84AD77CB28899C3F00B327CC /* SetDestinationTableViewCell.swift */,
 				84AD77CE28899E0D00B327CC /* MapTableViewCell.swift */,
+				84AFB7A928911B850003C75F /* MapViewController.swift */,
 			);
 			path = "Other Cells";
+			sourceTree = "<group>";
+		};
+		84AFB7A42890E7D60003C75F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				84AD77C62889828700B327CC /* SearchTableViewCell.swift */,
+				84AFB7A52890EAC00003C75F /* ParentSearchViewController.swift */,
+				84AFB7AB289120ED0003C75F /* SearchViewController.swift */,
+				84AFB7A72890EADE0003C75F /* LocationManager.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		84D45C5A28882D3300104E2F /* HomeScreeen */ = {
@@ -243,6 +262,7 @@
 				84D45C5B28882D4B00104E2F /* HomeScreenViewController.swift */,
 				841ABA9A28895B9C0092C9EB /* Banner */,
 				84E59E21288EBD57006C630D /* Blocks */,
+				84AFB7A42890E7D60003C75F /* Search */,
 				841ABA9B28895BB50092C9EB /* Other Cells */,
 			);
 			path = HomeScreeen;
@@ -397,18 +417,22 @@
 				84E59E31288EF2B1006C630D /* IntercityTableViewCell.swift in Sources */,
 				84E59E2D288EF29E006C630D /* RentalTableViewCell.swift in Sources */,
 				84E59E33288EFED4006C630D /* BannerTableViewCell.swift in Sources */,
+				84AFB7A82890EADE0003C75F /* LocationManager.swift in Sources */,
 				84AD77D7288A575D00B327CC /* UpcomingTableViewCell.swift in Sources */,
 				84D45C5928882A3100104E2F /* verifyOTPViewController.swift in Sources */,
 				8404B5F62887CC30001458DE /* SceneDelegate.swift in Sources */,
+				84AFB7A62890EAC00003C75F /* ParentSearchViewController.swift in Sources */,
 				841ABA9528892EF60092C9EB /* HomebannerTableViewCell.swift in Sources */,
 				84D45C5E28883FE100104E2F /* ActivityViewController.swift in Sources */,
 				841ABA97288930EE0092C9EB /* HomeBannerCollectionViewCell.swift in Sources */,
 				84AD77D32889D00100B327CC /* AccountSettingsTableViewCell.swift in Sources */,
+				84AFB7AC289120ED0003C75F /* SearchViewController.swift in Sources */,
 				84AD77CF28899E0D00B327CC /* MapTableViewCell.swift in Sources */,
 				84AD77DB288A5D9E00B327CC /* OderListTableViewCell.swift in Sources */,
 				84E59E2F288EF2A8006C630D /* ReserveTableViewCell.swift in Sources */,
 				84AD77C72889828700B327CC /* SearchTableViewCell.swift in Sources */,
 				84A817142890312200D62098 /* HelpViewController.swift in Sources */,
+				84AFB7AA28911B850003C75F /* MapViewController.swift in Sources */,
 				84E59E23288EBDBF006C630D /* RideViewController.swift in Sources */,
 				8404B60D2887CD3E001458DE /* PreViewController.swift in Sources */,
 				84341682288FFF6100B24B05 /* LottieAnimationViewController.swift in Sources */,

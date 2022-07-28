@@ -71,7 +71,7 @@ extension HomeScreenViewController : UITableViewDelegate, UITableViewDataSource{
         else if indexPath.row == 2{
             let cell = homeTableView.dequeueReusableCell(withIdentifier: "SearchTableViewCell") as! SearchTableViewCell
             homeTableView.separatorStyle = .none
-            cell.selectionStyle = .none
+            //cell.selectionStyle = .none
             
             return cell
         }

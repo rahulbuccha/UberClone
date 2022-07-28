@@ -22,18 +22,16 @@ class SearchTableViewCell: UITableViewCell {
         
         textField.layer.masksToBounds = true
         textField.layer.cornerRadius = 25.0
-
-        
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
        
     }
 
 }
 
+//MARK: Textfield Extension for Left Icon
 extension UITextField {
 func setIcon(_ image: UIImage) {
    let iconView = UIImageView(frame:
