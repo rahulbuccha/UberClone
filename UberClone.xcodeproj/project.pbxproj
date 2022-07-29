@@ -38,6 +38,7 @@
 		84D45C5E28883FE100104E2F /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D45C5D28883FE100104E2F /* ActivityViewController.swift */; };
 		84D45C6028883FEB00104E2F /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D45C5F28883FEA00104E2F /* AccountViewController.swift */; };
 		84D4E0C128880BFC000F48E0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4E0C028880BFC000F48E0 /* LoginViewController.swift */; };
+		84D616702893D15E00B60473 /* 93857-abstract-modular-cube-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 84D6166F2893D15E00B60473 /* 93857-abstract-modular-cube-1.json */; };
 		84E59E20288E6777006C630D /* BannerTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E59E1F288E6777006C630D /* BannerTermsViewController.swift */; };
 		84E59E23288EBDBF006C630D /* RideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E59E22288EBDBE006C630D /* RideViewController.swift */; };
 		84E59E25288EBDD5006C630D /* PackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E59E24288EBDD5006C630D /* PackageViewController.swift */; };
@@ -88,6 +89,7 @@
 		84D45C5D28883FE100104E2F /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		84D45C5F28883FEA00104E2F /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		84D4E0C028880BFC000F48E0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84D6166F2893D15E00B60473 /* 93857-abstract-modular-cube-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "93857-abstract-modular-cube-1.json"; sourceTree = "<group>"; };
 		84E59E1F288E6777006C630D /* BannerTermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTermsViewController.swift; sourceTree = "<group>"; };
 		84E59E22288EBDBE006C630D /* RideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideViewController.swift; sourceTree = "<group>"; };
 		84E59E24288EBDD5006C630D /* PackageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				84341687289026D700B24B05 /* 101513-simple-loading-animation.json */,
+				84D6166F2893D15E00B60473 /* 93857-abstract-modular-cube-1.json */,
 				8404B6092887CC81001458DE /* Extensions */,
 				8404B6082887CC77001458DE /* Resources */,
 				8404B60B2887CCE4001458DE /* StoryBoards */,
@@ -346,6 +349,7 @@
 			files = (
 				84341688289026D700B24B05 /* 101513-simple-loading-animation.json in Resources */,
 				8404B6002887CC33001458DE /* LaunchScreen.storyboard in Resources */,
+				84D616702893D15E00B60473 /* 93857-abstract-modular-cube-1.json in Resources */,
 				8404B5FD2887CC33001458DE /* Assets.xcassets in Resources */,
 				8404B5FB2887CC30001458DE /* Main.storyboard in Resources */,
 			);

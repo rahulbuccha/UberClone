@@ -9,11 +9,12 @@ import UIKit
 
 class RideViewController: UIViewController {
 
+    @IBOutlet weak var txtField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        txtField.setIcon(UIImage())
+        
     }
     
-
 }
